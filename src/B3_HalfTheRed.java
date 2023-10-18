@@ -23,11 +23,25 @@ public class B3_HalfTheRed extends World {
                     plane.setPixelColor(189, 203, 255);
                 }else{
                     plane.setPixelColor(red/2,60,blue/1);
-
-
                 }
 
-                //if (red = 233 && blue = 238 && green = 241)
+                if(col<80){
+                    plane.setPixelColor(0,green/3,blue/2);
+                }
+
+                if(col>550 && col<640){
+                    plane.setPixelColor(0,green/3,blue/2);
+                }
+
+                if(row<70){
+                    plane.setPixelColor(0,green/3,blue/2);
+                }
+
+                if(row>690){
+                    plane.setPixelColor(0,green/3,blue/2);
+                }
+
+
 
 
             }
